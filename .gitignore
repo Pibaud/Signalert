@@ -2,7 +2,12 @@
 data/
 *.wav
 *.mp3
-*.flac
+*.npy
+*.pkl
+*.pt
+*.joblib
+*.h5
+*.ipynb_checkpoints/
 
 # Fichiers de modèle
 *.h5
