@@ -10,8 +10,9 @@ data/
 *.pkl
 *.joblib
 
-# Jupyter notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
 
 # Fichiers système
 .DS_Store
