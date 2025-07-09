@@ -1,0 +1,43 @@
+# Ignore les datasets et fichiers audio
+data/
+*.wav
+*.mp3
+*.flac
+
+# Fichiers de modèle
+*.h5
+*.tflite
+*.pkl
+*.joblib
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Environnement virtuel
+.env
+.venv/
+env/
+venv/
+
+# Logs et outputs
+*.log
+*.out
+*.tmp
+
+# Dossiers de build
+build/
+dist/
+*.egg-info/
+
+# Configuration perso
+*.swp
+*.bak
+*.swo
