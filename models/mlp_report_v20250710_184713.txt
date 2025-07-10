@@ -1,0 +1,47 @@
+🧠 MLP NEURAL NETWORK MODEL REPORT
+Version: v20250710_184713
+Timestamp: 20250710_184713
+
+PERFORMANCE METRICS
+==================
+Test Accuracy: 0.9215 (92.15%)
+Best Validation Accuracy: 0.9368
+Training Time: 18.35 seconds
+Mean Inference Time: 74.043 ± 4.165 ms
+Full Pipeline Time: 75.431 ms
+Mobile Viability: 🟡 BON pour mobile (avec optimisation)
+Epochs Trained: 41
+Total Parameters: 13,959
+
+CONFIDENCE ANALYSIS
+==================
+Mean Confidence: 0.912 ± 0.137
+High Confidence (>0.9): 72.2%
+Low Confidence (<0.5): 1.9%
+
+DETAILED CLASSIFICATION REPORT
+==============================
+               precision    recall  f1-score   support
+
+     car_horn       0.84      0.95      0.89        86
+     dog_bark       0.91      0.88      0.89       200
+     drilling       0.87      0.82      0.85       200
+engine_idling       0.92      0.96      0.94       200
+     gun_shot       0.95      0.95      0.95       245
+   jackhammer       0.89      0.92      0.90       200
+        siren       0.98      0.95      0.96       372
+
+     accuracy                           0.92      1503
+    macro avg       0.91      0.92      0.91      1503
+ weighted avg       0.92      0.92      0.92      1503
+
+
+MODEL ARCHITECTURE
+==================
+Input Features: 40
+Hidden Layer 1: 128 neurons (ReLU + Dropout 0.3)
+Hidden Layer 2: 64 neurons (ReLU + Dropout 0.3)
+Output Layer: 7 neurons (Softmax)
+Optimizer: Adam
+Loss Function: Categorical Crossentropy
+Regularization: Dropout + Class Weights
